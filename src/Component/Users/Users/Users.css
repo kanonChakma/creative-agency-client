@@ -1,0 +1,40 @@
+.order-form input,textarea{
+    width:70%;
+    padding:23px 10px;
+   }
+   .order-form input[type="submit"]{
+       width: 100px;
+       height: 40px;
+       padding:0px;
+       background-color:orange;
+       border: none;
+   }
+   .order-form .msg{
+       padding: 10px;
+       padding-bottom:70px;
+   }
+.service-card{
+    cursor: pointer;
+    width: 100%;
+    height: 275px;
+    overflow: hidden;
+  }
+.card-scroll1,.card-scroll2{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    box-sizing: content-box;
+}
+.card-scroll1{
+    padding-right: 49px;
+}
+.card-scroll2{
+    padding-right: 34px;
+}
+.card-btn{
+    border: none;
+    background-color:orange;
+    color: white;
+   padding: 5px 20px;
+   border-radius: 3px;
+}

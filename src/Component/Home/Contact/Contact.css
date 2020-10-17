@@ -1,0 +1,15 @@
+.contact-page {
+    height:600px;
+    width:100%;
+    position:relative;
+}
+.contact-page::before{
+    height:600px;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background-color:#FBD062;
+    z-index: -1;
+}

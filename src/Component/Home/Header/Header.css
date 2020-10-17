@@ -1,0 +1,15 @@
+.head-container {
+    height:700px;
+    width:100%;
+    position:relative;
+}
+.head-container::before{
+    height:700px;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background-color:#FBD062;
+    clip-path: polygon(0 0, 100% 0%, 100% 83%, 0% 100%);
+}

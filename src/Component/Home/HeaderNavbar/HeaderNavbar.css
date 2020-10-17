@@ -1,0 +1,32 @@
+.navlink{
+    color:#111430;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.navlist{
+    margin-right:90px;
+}
+.navlogin{
+    padding: 5px 12px;
+    background-color: #111430;
+    color: white;
+    border-radius: 3px;
+}
+.head-logo{
+    width: 150px;
+   height: 47px;
+   left: 137px;
+   top: 28px;
+   position: absolute;
+   }
+   .hire-us{
+       border: none;
+       padding: 7px 35px;
+       background-color: #111430;
+       color: white;
+       border-radius: 3px;
+   }
+.company-logo{
+ height: 60px;
+ width: 190px;
+}

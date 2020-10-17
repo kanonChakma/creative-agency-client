@@ -1,0 +1,30 @@
+.slider {
+    height:700px;
+    width:100%;
+    position:relative;
+}
+.slider::before{
+    height:700px;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background-color:#111430;
+    z-index: -1;
+}
+.carosel{
+    width: 90%;
+}
+.item{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 400px;
+    width: 490px;
+    overflow: hidden;
+}
+.item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

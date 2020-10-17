@@ -1,0 +1,13 @@
+.upload-btn{
+    background-color: #DEFFED;
+    border: 1px solid #009444;
+    color: #009444;
+    display: inline-block;
+   cursor: pointer;
+   padding:6px 12px;
+  }
+  .upload input[type="file"]{
+      position: fixed;
+    right: 100%;
+    bottom: 100%;
+  }

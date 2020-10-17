@@ -1,0 +1,12 @@
+.sidebar{
+    height: 100vh;
+    position: fixed;
+}
+.sidebar p:hover span{
+    display: inline-block;
+    transform: translate(5px);
+}
+.sidebar p{
+    line-height: 10px;
+    font-size: 16px;
+}
