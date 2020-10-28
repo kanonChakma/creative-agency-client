@@ -4,7 +4,7 @@ import Allservices from '../Allservices/Allservices';
 const Services = () => {
          const[services,setService]=useState([])
          useEffect(()=>{
-            fetch('http://localhost:5000/getservice')
+            fetch('https://shielded-tundra-08042.herokuapp.com/getservice')
             .then(res =>res.json())
             .then(result=>{
                 setService(result);
@@ -23,5 +23,4 @@ const Services = () => {
        </section>
     );
 };
-
 export default Services;

@@ -27,7 +27,7 @@ const handleSubmit = (e) =>{
             formData.append('file', file)
             formData.append('desc', orderInfo.desc)
             formData.append('title', orderInfo.title)
-            fetch('http://localhost:5000/addservice', {
+            fetch('https://shielded-tundra-08042.herokuapp.com/addservice', {
                 method: 'POST',
                 body: formData
             }) 

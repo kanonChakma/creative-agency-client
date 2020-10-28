@@ -8,7 +8,7 @@ const Review = () => {
     const[signInUser,setSignInUser]=useContext(userContext)
     const { register, handleSubmit, reset, errors } = useForm();
     const onSubmit = (data,e) =>{
-        fetch('http://localhost:5000/review',{
+        fetch('https://shielded-tundra-08042.herokuapp.com/review',{
           method:'POST',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify(data),

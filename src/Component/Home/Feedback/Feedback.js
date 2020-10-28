@@ -3,7 +3,7 @@ import ShowFeedback from '../ShowFeedback/ShowFeedback';
 const Feedback = () => {
     const[feedBack,setFeedback]=useState([])
          useEffect(()=>{
-            fetch('http://localhost:5000/getreview')
+            fetch('https://shielded-tundra-08042.herokuapp.com/getreview')
             .then(res =>res.json())
             .then(result=>{
                 setFeedback(result);

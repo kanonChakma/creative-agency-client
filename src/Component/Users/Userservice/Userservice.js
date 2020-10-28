@@ -10,7 +10,7 @@ const Userservice = () =>{
     const[signInUser,setSignInUser]=useContext(userContext) 
     
      useEffect(()=>{
-         fetch('http://localhost:5000/servicelist?email='+signInUser.email)
+         fetch('https://shielded-tundra-08042.herokuapp.com/servicelist?email='+signInUser.email)
          .then(res=>res.json())
          .then(data=>
             {console.log(data)

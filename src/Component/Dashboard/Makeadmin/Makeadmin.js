@@ -11,7 +11,7 @@ const Makeadmin = () => {
       setUpdateAdmin(info)
     }
     const handleButton=()=>{
-            fetch('http://localhost:5000/makeadmin',{
+            fetch('https://shielded-tundra-08042.herokuapp.com/makeadmin',{
                 method:'POST',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify(updateAdmin), 

@@ -9,7 +9,7 @@ const[signInUser,setSignInUser]=useContext(userContext);
  const[data,setData]=useState([])
  
     useEffect(()=>{
-      fetch('http://localhost:5000/getallservice')
+      fetch('https://shielded-tundra-08042.herokuapp.com/getallservice')
       .then(res =>res.json())
       .then(result=>{
           setData(result);
@@ -19,7 +19,7 @@ const[signInUser,setSignInUser]=useContext(userContext);
         const opt=document.getElementById('select').value; 
         const option={opt};      
         console.log(option)
-        fetch(`http://localhost:5000/update/${id}`,{
+        fetch(`https://shielded-tundra-08042.herokuapp.com/update/${id}`,{
             method:'PATCH',
             headers:{'Content-Type':'application/json'},
             body:JSON.stringify(option)

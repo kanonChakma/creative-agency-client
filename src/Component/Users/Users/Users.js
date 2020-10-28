@@ -32,7 +32,7 @@ const handleSubmit = (e) =>{
             formData.append('desc', orderInfo.desc)
             formData.append('category', orderInfo.category)
             formData.append('status','pending')
-            fetch('http://localhost:5000/addOrder', {
+            fetch('https://shielded-tundra-08042.herokuapp.com/addOrder', {
                 method: 'POST',
                 body: formData
             })

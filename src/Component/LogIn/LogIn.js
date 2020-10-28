@@ -35,7 +35,7 @@ const LogIn = () => {
                     email,
                     photoURL
                 } = user;
-                fetch('http://localhost:5000/admin?email=' + email)
+                fetch('https://shielded-tundra-08042.herokuapp.com/admin?email=' + email)
                     .then(res => res.json())
                     .then(data => {
                         if (data[0]){
