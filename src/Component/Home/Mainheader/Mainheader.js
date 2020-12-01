@@ -2,7 +2,7 @@ import React from 'react';
 import bg from '../../../images/logos/Frame.png'
 const Mainheader = () =>{
     return(
-        <main>
+        <main style={{overflow: 'hidden'}}>
            <div  className="my-2 p-1  row d-flex align-items-center">
                <div className="col-md-4 col-sm-6  col-xs-6 offset-md-1">
                    <h1>Let's Grow Your <br/> Brand To The <br/>Next Level</h1>
